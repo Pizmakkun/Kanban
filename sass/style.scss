@@ -1,6 +1,35 @@
 $color1: #f78a3b;
 $color2: blue;
-
+$color3: red;
+$color4: green;
 body {
 	background-color: $color1;
+}
+
+button {
+	background: gray;
+	color: white;
+	&:hover {
+		cursor: pointer;
+		background: white;
+		color: gray;
+	}
+};
+
+.board {
+	border: 1px solid $color2;
+	width: 700px;
+	height: 100%;
+	padding: 20px;
+}
+.column-container {
+	display: inline;
+}
+.column {
+	border: 2px solid $color3;
+	width: 250px;
+	display: inline-block;
+}
+.card {
+	border: 1px solid $color4;
 }

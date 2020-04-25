@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>JS FCC TUTORIAL</title>
+		<metbe a robota charset="UTF-8">
+		<title>Oppa Kanban style</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
@@ -13,11 +13,19 @@
 		</div>
 		<script id="column-template" type="x-tmpl-mustache">
 			<div class="column">
-				<h2 class="column-title">{{ name }}</h2>
+				<h2 class = "column-title">{{ name }}</h2>
 				<ul id={{ id }} class="column-card-list"></ul>
 				<button class="btn-delete">X</button>
 				<button class="add-card">Add a card</button>
-			</div>	
+			</div>
+		</script>
+		<script id="column-template" type="x-tmpl-mustache">
+			<div class="column">
+				<h2 class = "column-title">{{ name }}</h2>
+				<ul id={{ id }} class="column-card-list"></ul>
+				<button class="btn-delete">X</button>
+				<button class="add-card">Add a card</button>
+			</div>
 		</script>
 		<script id="card-template" type="x-tmpl-mustache">
 			<div class="card">

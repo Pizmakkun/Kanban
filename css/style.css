@@ -1,1 +1,37 @@
-body { background-color: #f78a3b; }
+body {
+  background-color: #f78a3b;
+}
+
+button {
+  background: gray;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: gray;
+}
+
+.board {
+  border: 1px solid blue;
+  width: 700px;
+  height: 100%;
+  padding: 20px;
+}
+
+.column-container {
+  display: inline;
+}
+
+.column {
+  border: 2px solid red;
+  width: 250px;
+  display: inline-block;
+}
+
+.card {
+  border: 1px solid green;
+}
+
+/*# sourceMappingURL=style.css.map */
