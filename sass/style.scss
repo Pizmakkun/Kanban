@@ -2,28 +2,44 @@ $color1: #f78a3b;
 $color2: blue;
 $color3: red;
 $color4: green;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	background-color: $color1;
+	display: inline-block;
 }
 
 button {
 	background: gray;
 	color: white;
+	outline: none;
 	&:hover {
 		cursor: pointer;
 		background: white;
 		color: gray;
 	}
 };
+ul {
+	display: inline-block;
+}
+
+.column-container > div {
+	display: inline-block;
+}
 
 .board {
 	border: 1px solid $color2;
-	width: 700px;
+	width: 1200px;
 	height: 100%;
 	padding: 20px;
+	display: inline-block;
 }
 .column-container {
-	display: inline;
+	display: inline-block;
 }
 .column {
 	border: 2px solid $color3;
@@ -32,4 +48,6 @@ button {
 }
 .card {
 	border: 1px solid $color4;
+	width: 50px;
+	display: inline-block;
 }
